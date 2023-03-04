@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>learning bootstrap</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top   ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" width="49px" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#get-in-touch">Contact</a>
+              </li>
+            </ul>
+            <button type="button" class="rounded-pill btn-rounded d-none-md">8965953375
+                <span>
+                <img src="images/tele.svg" alt="">
+                </span>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+<!-- intro -->
+<section id="home" class="intro-section">
+       <div class="container">
+        <div class="row align-items-center text-white">
+          <div class="col-md-6 intros">
+            <h1 class="display-2">
+              <span class="display-2--intro">Hey! I'm Akanksha</span>
+              <span class="display-2--description lh-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, nemo?</span>
+            </h1>
+            <button type="button" class="rounded-pill btn-rounded "><a href="#get-in-touch" class=" text-decoration-none"> Get In Touch
+              <span>
+              <img src="images/tele.svg" alt="">
+              </span>
+            </a>
+          </button>
+          </div>
+          <!-- second column -->
+          <div class="col-md-6 col-sm-3 intros text-end">
+            <div class="video-box">
+              <img src="images/arts/bg.png" alt="video illustration" class="img-fluid">
+              <a href="https://www.youtube.com/watch?v=uzxnDxYEg9Q"  target="_self" class="glightbox position-absolute top-50 start-50 translate-middle">
+                <span>
+                  <img src="images/arts/playbutton.png" width="70px" alt="">
+              </span>
+              <span class="border-animation border-animation--border-1 "></span>
+              <span class="border-animation border-animation--border-2"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+       </div>
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L40,90.7C80,117,160,171,240,186.7C320,203,400,181,480,149.3C560,117,640,75,720,80C800,85,880,139,960,176C1040,213,1120,235,1200,240C1280,245,1360,235,1400,229.3L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+</section>
+<!-- companies -->
+<section id="Companies" class="Companies">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class=" display-3 fw-bolder mb-3">Learned Skills</h1>
+      <div class="heading-line mb-4"></div>
+    </div>
+  </div>
+  <!-- start skill logo -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class=" shadow-sm companies--logo-box">
+          <img src="images/arts/html.png" width="90px"alt="HTML">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="shadow-sm  companies--logo-box">
+          <img src="images/arts/css.png" width="90px" alt="CSS">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="shadow-sm  companies--logo-box">
+          <img src="images/arts/js.png" width="90px" alt="javascript">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class=" shadow-sm companies--logo-box">
+          <img src="images/arts/jquary.png"width="90px" alt="jquary">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class=" shadow-sm  companies--logo-box">
+          <img src="images/arts/boot.png" width="90px"alt="Bootstrap">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="shadow-sm  companies--logo-box">
+          <img src="images/arts/sass.png"width="90px" alt="sass">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="shadow-sm  companies--logo-box">
+          <img src="images/arts/mysql.png"width="90px" alt="mysql">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class=" shadow-sm  companies--logo-box">
+          <img src="images/arts/nodejs.png"width="90px" alt="nodejs">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- services -->
+<section id="projects" class="our-projects">
+  <div class="container">
+    <div class="row text-center ">
+      <h1 class="display-3 fw-bold"> My Projects</h1>
+      <div class="heading-line mb-4"></div>
+    </div>
+  </div>
+  <!-- description content -->
+  <div class="container">
+    <div class="row pt-2 pb-2 mt-4 mb-3">
+      <div class="col-md-6 border-right">
+        <div class="bg-white p-3">
+          <h2 class="fw-bold text-capitalize text-center">
+            Lorem ipsum dolor sit enim, itaque autemplicabo vero? enim, itaque autemplicabo vero</h2>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="bg-white p-4 text-start">
+          <p class="fw-light">Lorem ipsum dolor sit amet, consectetur adipisicingores, quos!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start project content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 projects mt-4">
+        <div class="projects---content">
+          <div class="icon fas fa-paper-plane"></div>
+          <h3 class="display-3--title mt-1 ">Online Class</h3>
+          <p class="lh-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, eum tempora iure quod dolor dignissimos minus libero nostrum a sint quidem ratione blanditiis velit recusandae voluptas provident voluptates sed similique.</p>
+          <button type="button" class="rounded-pill btn-rounded d-none-md border-primary">More Detail
+            <span>
+            <img src="images/tele.svg" alt="">
+            </span>
+        </button>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 projects mt-4">
+        <div class="projects---pic">
+       <img src="images/arts/html.png" width="340px" alt=""  class="img-fluid">
+        </div>
+      </div>
+  </div>
+<!-- 2 -->
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 projects mt-4">
+      <div class="projects---pic">
+        <img src="images/arts/css.png" width="340px" alt="" class="img-fluid">
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 projects mt-4">
+      <div class="projects---content">
+        <i class="fa-solid fa-square-code"></i>
+        <h3 class="display-3--title mt-1 ">Online Class</h3>
+        <p class="lh-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, eum tempora iure quod dolor dignissimos minus libero nostrum a sint quidem ratione blanditiis velit recusandae voluptas provident voluptates sed similique.</p>
+        <button type="button" class="rounded-pill btn-rounded d-none-md border-primary">More Detail
+          <span>
+          <img src="images/tele.svg" alt="">
+          </span>
+      </button>
+      </div>
+    </div>
+</div>
+<!-- 3 -->
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 projects mt-4">
+    <div class="projects---content">
+      <div class="icon fas fa-paper-plane"></div>
+      <h3 class="display-3--title mt-1 ">Online Class</h3>
+      <p class="lh-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, eum tempora iure quod dolor dignissimos minus libero nostrum a sint quidem ratione blanditiis velit recusandae voluptas provident voluptates sed similique.</p>
+      <button type="button" class="rounded-pill btn-rounded d-none-md border-primary">More Detail
+        <span>
+        <img src="images/tele.svg" alt="">
+        </span>
+    </button>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 projects mt-4">
+    <div class="projects---pic">
+      <img src="images/arts/js.png" width="340px" alt="" class="img-fluid">
+    </div>
+  </div>
+</div>
+</section>
+<!-- testimonialsss -->
+<section id="testimonials" class="testimonials">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L40,176C80,160,160,128,240,101.3C320,75,400,53,480,85.3C560,117,640,203,720,224C800,245,880,203,960,154.7C1040,107,1120,53,1200,53.3C1280,53,1360,107,1400,133.3L1440,160L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+  <div class="container">
+    <div class="row text-center text-white">
+      <h1 class="display-3 fw-bold ">Testimonial</h1>
+        <hr style="width:100px; height: 3px;" class="mx-auto  ">
+        <p class="pt-1 lead">Detail For Projects</p>
+    </div>
+    <!-- start carousal -->
+    <div class="row align-items-center">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+       
+        <div class="carousel-inner">
+          <!-- carasol item -->
+          <div class="carousel-item active">
+              <!-- testimonial card -->
+
+            <div class="testimonials--card">
+              <p class="lh-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugiat neque eius, eveniet, explicabo dolore eum commodi ea unde consequuntur distinctio?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, libero!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, libero!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, libero!
+              </p>
+            </div>
+              <!-- client pic -->
+              <div class="testimonials--pic">
+              <img src="images/logo.png" alt=" client" class="img-fluid rounded-circle" >
+              </div>
+              <!-- name -->
+              <div class="testimonials--name">
+                <h3>Akki</h3>
+                <p class="lead fw-light">coder</p>
+              </div>
+
+           
+          </div>
+
+          <div class="carousel-item">
+            <!-- testimonial card -->
+
+          <div class="testimonials--card">
+            <p class="lh-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugiat neque eius, eveniet, explicabo dolore eum commodi ea unde consequuntur distinctio?
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, error.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, libero!
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, libero!
+            </p>
+          </div>
+            <!-- client pic -->
+            <div class="testimonials--pic">
+            <img src="images/logo.png" alt=" client" class="img-fluid rounded-circle">
+            </div>
+            <!-- name -->
+            <div class="testimonials--name">
+              <h3>raki</h3>
+              <p class="lead fw-light">coder</p>
+            </div>
+         
+        </div>
+
+        <div class="carousel-item ">
+          <!-- testimonial card -->
+
+        <div class="testimonials--card">
+          <p class="lh-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugiat neque eius, eveniet, explicabo dolore eum commodi ea unde consequuntur distinctio?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, aliquid!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, libero!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, libero!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, libero!
+            
+          </p>
+        </div>
+          <!-- client pic -->
+          <div class="testimonials--pic">
+          <img src="images/logo.png" alt=" client" class="img-fluid rounded-circle">
+          </div>
+          <!-- name -->
+          <div class="testimonials--name">
+            <h3>raki</h3>
+            <p class="lead fw-light">coder</p>
+          </div>
+
+          
+        </div>
+
+        <div class="text-center">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L40,90.7C80,117,160,171,240,186.7C320,203,400,181,480,149.3C560,117,640,75,720,80C800,85,880,139,960,176C1040,213,1120,235,1200,240C1280,245,1360,235,1400,229.3L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+</section>
+<!-- faq -->
+<section id="faq" class="faq">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold text-uppercase">FAQ</h1>
+      <div class="heading-line"></div>
+      <p class="lead pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+<!-- accordient -->
+<div class="row mt-4">
+  <div class="col-md-12">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <!-- 1 -->
+      <div class="accordion-item shadow mb-3">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="accordion-item shadow mb-3">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="accordion-item shadow mb-3">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="accordion-item shadow mb-3">
+        <h2 class="accordion-header" id="flush-headingfour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+<!--portfolio-->
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold text-capitalize"> Portfolio</h1>
+      <div class="heading-line"></div>
+        <p class="lead mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, tempore.</p>
+    </div>
+    <!-- filter btns -->
+    <div class="row text-center mt-4 mb-4 g-3">
+      <div class="col-md-12">
+        <button class="btn btn-outline-primary m" type="button">all</button>
+        <button class="btn btn-outline-primary" type="button">websites</button>
+        <button class="btn btn-outline-primary" type="button">design</button>
+        <button class="btn btn-outline-primary" type="button">mockup</button>
+      </div>
+    </div>
+    <!-- content -->
+    <div class="row">
+      <div class="col-lg-4 col-md-7">
+        <div class="portfolio-box shadow">
+          <img src="./images/8.jpg" title="portfolio-9pic"  width="340px" alt="">
+          <div class="portolio-info">
+            <div class="caption">
+              <h4>project name here</h4>
+              <p>catactu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-7">
+        <div class="portfolio-box shadow">
+          <img src="./images/8.jpg" title="portfolio-9pic"   width="340px" alt="">
+          <div class="portolio-info">
+            <div class="caption">
+              <h4>project name here</h4>
+              <p>catactu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-7">
+        <div class="portfolio-box shadow">
+          <img src="./images/8.jpg" title="portfolio-9pic"  width="340px" alt="">
+          <div class="portolio-info">
+            <div class="caption">
+              <h4>project name here</h4>
+              <p>catactu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-7">
+        <div class="portfolio-box shadow">
+          <img src="./images/8.jpg" title="portfolio-9pic"   width="340px" alt="">
+          <div class="portolio-info">
+            <div class="caption">
+              <h4>project name here</h4>
+              <p>catactu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-7">
+        <div class="portfolio-box shadow">
+          <img src="./images/8.jpg" title="portfolio-9pic"  width="340px" alt="">
+          <div class="portolio-info">
+            <div class="caption">
+              <h4>project name here</h4>
+              <p>catactu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-7">
+        <div class="portfolio-box shadow">
+          <img src="./images/8.jpg" title="portfolio-9pic" width="340px" alt="">
+          <div class="portolio-info">
+            <div class="caption">
+              <h4>project name here</h4>
+              <p>catactu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- get started -->
+   <section id="get-in-touch " class="get-started">
+    <div class="container " id="get-in-touch" >
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold text-capitalize">Get Started</h1>
+        <div class="heading-line"></div>
+        <p class="lh-lg">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas nobis sunt excepturi.
+        </p>
+      </div>
+      <div class="row text-white">
+        <div class="col-12 col-lg-6 gradient shadow p-3">
+          <div class="cta-info w-100%">
+            <h4 class="display-4 fw-bold">asfasdfdfff</h4>
+            <p class="lh-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iste cupiditate aliquam mollitia fugiat nesciunt? Eligendi deleniti saepe cupiditate debitis veritatis.
+              <h3 class="disolay-3--brief">
+                <ul class="cta-info--list">
+                  <li>afasdffdsfafadf</li>
+                  <li>afasdffdsfafadf</li>
+                  <li>afasdffdsfafadf</li>
+                </ul>
+              </h3>
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6  shadow bg-white p-3">
+          <div class="form w-100pb-2">
+            <h4 class="display-3--title mb-4">start your project</h4>
+            <form action="#" class="row">-lg
+              <div class="mb-3 col-lg-5 ">
+                <input type="text" placeholder="First Name" id="inputfirstname" class=" shadow form-control">
+              </div>
+              <div class="mb-3 col-lg-5 ">
+                <input type="text" placeholder="Last Name" id="inputlastname" class="shadow form-control">
+              </div>
+              <div class="mb-3 col-lg-12">
+                <input type="email" placeholder="E-Mail address" id="inputemail" class="shadow form-control">
+              </div>Shadow
+              <div class="mb-3">
+                <textarea name="message" placeholder="Message" id="message" cols="30" rows="8" class=" shadow form-control"></textarea>
+                <div class="text-center d-grid mt-1">
+                  <button type="button" class="btn btn-primary rounded-pill mt-3 pt-3 pb-3">Submit </button>
+                  <i class="fas fa-paper-plane"></i>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+<!-- footer -->
+<section class="footer">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4 col-lg-4 contect-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box--item  "><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail"  viewBox="0 0 24 24" stroke-width="1" stroke="" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <rect x="3" y="5" width="18" height="14" rx="2" />
+          <polyline points="3 7 12 13 21 7" />
+        </svg></div>
+          <div class="contact-box--info">
+            <a href="" class="contact-box--info--title">title goes here</a>
+            <p class="contact-box--info--subtitle">subtitle here</p>
+          </div>
+      </div>
+        <div class="col-md-4 col-lg-4 contect-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box--item"><svg xmlns="http://www.w3.org/20 00/svg" class="icon icon-tabler icon-tabler-map-pin" viewBox="0 0 24 24" stroke-width="1" stroke="" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M0 0h24v24H0z" fill="none"/>
+              <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+            </svg>
+          </svg></div>
+            <div class="contact-box--info">
+              <a href="" class="contact-box--info--title">title goes here</a>
+              <p class="contact-box--info--subtitle">subtitle here</p>
+            </div>
+        </div>
+      <div class="col-md-4 col-lg-4 contect-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box--item"><svg xmlns="http://www.w3.org/20 00/svg" class="icon icon-tabler icon-tabler-map-pin" viewBox="0 0 24 24" stroke-width="1" stroke="" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M0 0h24v24H0z" fill="none"/>
+          <circle cx="12" cy="11" r="3" />
+          <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+        </svg></div>
+          <div class="contact-box--info">
+            <a href="" class="contact-box--info--title">title goes here</a>
+            <p class="contact-box--info--subtitle">subtitle here</p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- social media -->
+  <div class="fotter-sm " style="background-color: #272727;">
+  <div class="container">
+    <div class="row py-4 text-center">
+      <div class="col-lg-4 col-md-7 mb-4 text-white">
+        connect with us on social media
+      </div>
+      <div class="col-lg-7 col-md-4 text-white">
+        social mediaaaa
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- content fpr footer -->
+  <div class="container">
+    <div class="row text-center justify-content-center mt-3 pb-4">
+    <div class="col-12 col-sm-6 col-lg-6">
+      <h4 class="text-capitalize fw-bold text-white">campany</h4>
+      <hr class="text-white d-inline-block mb-4"style="width: 70px ;height: 2px;">
+      <p class="lh-lg text-white">cing elit. Nulla saepe in incidunt sequi numquam minus molestias deleniti?
+      </p>
+    </div>
+    <div class="col-12 col-lg-2 col-sm-6">
+      <h4 class="text-capitalize fw-bold text-white">product</h4>
+      <hr class="text-white d-inline-block mb-4"style="width: 70px ;height: 2px;">
+      <ul class="list-inline company-list">
+        <li><a href="">lorem ipsum</a></li>
+        <li><a href="">lorem ipsum</a></li>
+        <li><a href="">lorem ipsum</a></li>
+        <li><a href="">lorem ipsum</a></li>
+      </ul>
+    </div>
+    <div class="col-12 col-lg-2 col-sm-6">
+      <h4 class="text-capitalize fw-bold text-white">useful links</h4>
+      <hr class="text-white d-inline-block mb-4"style="width: 70px ;height: 2px;">
+      <ul class="list-inline company-list">
+        <li><a href="">loremhhh ipsum</a></li>
+        <li><a href="">loremhhg ipsum</a></li>
+        <li><a href="">loremhh ipsum</a></li>
+        <li><a href="">lorem ujjjipsum</a></li>
+      </ul>
+    </div>
+    <div class="col-12 col-lg-2 col-sm-6">
+      <h4 class="text-capitalize fw-bold text-white">contact</h4>
+      <hr class="text-white d-inline-block mb-4"style="width: 70px ;height: 2px;">
+      <ul class="list-inline company-list">
+        <li><a href="">lorem ipsujhjm</a></li>
+        <li><a href="">lorem ipsjjum</a></li>
+        <li><a href="">lorem ipsujjm</a></li>
+        <li><a href="">lorem ipsjjum</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+  <!-- copyright -->
+  <div class="footer-bottom pt-4 pb-4">
+    <div class="container">
+      <div class="row text-center text-white">
+        <div class="col-12">
+          <div class="footer-bottom--copyright">
+    <a href="">@copyrght 2021 </a> <a href=""> Multi Purpose Portfolio</a>
+   <a href="">| Created by Akanksha</a> 
+  </div>
+</div>
+</div>
+</div>
+  </div> 
+</section>
+<!-- button-up -->
+
+<a href="" class=" bg-primary shadow rounded-circle back-to-top">
+ <img src="images/toppng.com-up-arrow-top-image-png-white-392x241.png" width="30px"  alt="">
+</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

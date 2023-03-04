@@ -1,0 +1,85 @@
+@use'../custom'as*;
+@use'../components/mixins'as*;
+
+.footer{
+    padding-top: 1em;
+    background-color:$footer;
+}
+/* contant-box */
+.contact-box{
+    position: relative;
+    left: 40%;
+
+    &--item{
+        width: 4rem;
+        stroke:$primary;
+    }
+    &--info{
+        padding: 0.4rem;
+        font-weight: 600;
+   
+
+    &--title{
+        color: white;
+        text-decoration: none;
+
+    }
+
+    &--subtitle{
+        color: gray;
+        font-size: 1rem;
+    }
+}
+}
+
+/* content */
+.company-list{
+    display: block;
+    position: relative;
+    
+    li{
+        margin-bottom: 0.4rem;
+        text-decoration: none;
+
+        a{
+            color: $white;
+            text-decoration: none;
+
+            &:hover{
+                color:$primary;
+            }
+        }
+    }
+}
+/* copyright */
+.footer-bottom{
+    background-color:$black;
+
+    &--copyright{
+        color: grey;
+        font-weight: 400;
+
+        a{
+            color: gray;
+            text-decoration: none;
+
+            &:hover{
+                color: $primary;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+/* bottom up */
+.back-to-top{
+    position: fixed;
+    right: 1.874rem;
+    bottom: 2.900rem;
+    width: 3.7rem;
+    height: 3.7rem;
+
+    img{
+        color: white;
+        @include absolutecenter;
+    }
+}

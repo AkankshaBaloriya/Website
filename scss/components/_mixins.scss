@@ -1,0 +1,22 @@
+/* gradient mixin */
+@use'../custom'as*;
+@mixin gradient{
+    background:linear-gradient(
+        to right,
+        rgba($primary,0.94),
+        rgba($secondary,0.94)
+    );
+}
+@mixin absolutecenter{
+    position:absolute;
+    left: 50%;
+    bottom:40%;
+    transform: translate(-50%);
+}
+ /*transition  */
+
+ @mixin transitionproperty{
+    transition-duration: 1000ms;
+    transition-property: all;
+ }
+  
